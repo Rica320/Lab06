@@ -15,7 +15,8 @@ public abstract class Bar {
     public boolean isHappyHour() {return false;}
     public void startHappyHour() {
     }
-    public void endHappyHour() {}
+    public void endHappyHour() {
+    }
 
     public void addObserver(BarObserver observer) {
         observers.add(observer);
@@ -30,4 +31,5 @@ public abstract class Bar {
             else
                 observer.happyHourEnded(this);
     }
+
 }
