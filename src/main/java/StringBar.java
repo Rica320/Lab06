@@ -8,7 +8,7 @@ public class StringBar extends Bar{
     }
 
     public StringBar() {
-
+        super();
     }
 
 
@@ -20,10 +20,12 @@ public class StringBar extends Bar{
     @Override
     public void startHappyHour() {
         happyHour = true;
+        notifyObservers();
     }
 
     @Override
     public void endHappyHour() {
         happyHour = false;
+        notifyObservers();
     }
 }

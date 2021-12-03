@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Bar {
@@ -8,11 +9,12 @@ public abstract class Bar {
     }
 
     Bar() {
-
+        this.observers = new ArrayList<>();
     }
 
     public boolean isHappyHour() {return false;}
-    public void startHappyHour() {}
+    public void startHappyHour() {
+    }
     public void endHappyHour() {}
 
     public void addObserver(BarObserver observer) {
