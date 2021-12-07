@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-12-03T21:05:18" hostname="RAAM-ASUS" time="0.757">
+<testsuite name="Tests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-12-07T13:04:52" hostname="RAAM-ASUS" time="0.682">
   <properties/>
-  <testcase name="happyHour()" classname="Tests" time="0.035"/>
-  <testcase name="stringReplacer()" classname="Tests" time="0.005"/>
+  <testcase name="happyHour()" classname="Tests" time="0.025"/>
+  <testcase name="stringReplacer()" classname="Tests" time="0.004"/>
   <testcase name="impatientStrategy()" classname="Tests" time="0.004"/>
   <testcase name="transformUndo()" classname="Tests" time="0.0"/>
-  <testcase name="stringDrink()" classname="Tests" time="0.001"/>
-  <testcase name="removeObserver()" classname="Tests" time="0.687"/>
-  <testcase name="smartStrategyStartClosed()" classname="Tests" time="0.002"/>
+  <testcase name="stringDrink()" classname="Tests" time="0.0"/>
+  <testcase name="removeObserver()" classname="Tests" time="0.614"/>
+  <testcase name="smartStrategyStartClosed()" classname="Tests" time="0.003"/>
   <testcase name="stringInverter()" classname="Tests" time="0.001"/>
-  <testcase name="smartStrategyStartOpened()" classname="Tests" time="0.001"/>
-  <testcase name="addObserver()" classname="Tests" time="0.008"/>
-  <testcase name="orderStringRecipe()" classname="Tests" time="0.001"/>
+  <testcase name="smartStrategyStartOpened()" classname="Tests" time="0.0"/>
+  <testcase name="addObserver()" classname="Tests" time="0.009"/>
+  <testcase name="orderStringRecipe()" classname="Tests" time="0.0"/>
   <testcase name="transformerGroup()" classname="Tests" time="0.001"/>
-  <testcase name="transformerComposite()" classname="Tests" time="0.001"/>
-  <testcase name="stringRecipe()" classname="Tests" time="0.001"/>
-  <testcase name="stringCaseChanger()" classname="Tests" time="0.001"/>
+  <testcase name="transformerComposite()" classname="Tests" time="0.0"/>
+  <testcase name="stringRecipe()" classname="Tests" time="0.0"/>
+  <testcase name="ferengiStartClosed()" classname="Tests" time="0.003"/>
+  <testcase name="ferengiAlreadyOpened()" classname="Tests" time="0.0"/>
+  <testcase name="romulan()" classname="Tests" time="0.002"/>
+  <testcase name="stringCaseChanger()" classname="Tests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
