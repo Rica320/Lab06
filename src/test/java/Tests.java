@@ -245,8 +245,5 @@ public class Tests {
         assertEquals("dCbX-DcBa", drink.getText());
     }
 
-    @Test
-    public void error(){
-        assertFalse(true);
-    }
+
 }
