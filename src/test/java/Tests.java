@@ -244,4 +244,9 @@ public class Tests {
         client.wants(drink, recipe, stringBar);
         assertEquals("dCbX-DcBa", drink.getText());
     }
+
+    @Test
+    public void error(){
+        assertFalse(true);
+    }
 }
