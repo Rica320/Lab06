@@ -247,6 +247,6 @@ public class Tests {
 
     @Test
     public void error(){
-        assertFalse(false);
+        assertFalse(true);
     }
 }
